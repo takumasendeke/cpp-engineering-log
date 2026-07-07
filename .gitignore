@@ -1,0 +1,7 @@
+# Ignore compiled Windows binaries
+*.exe
+*.o
+*.obj
+
+# Ignore VS Code workspace settings if you want to keep it purely code
+.vscode/
