@@ -19,6 +19,8 @@ int maxSum(const vector<int> &nums, int k){
         for(int num:nums){
             largestSum += num;
         }
+
+        return largestSum;
     }
 
     int currentWindowSum = 0;
