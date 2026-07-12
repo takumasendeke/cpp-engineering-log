@@ -70,7 +70,9 @@ class Human{
     Human() : name(""),age(-1),vitals{-1,-1},bloodtype(Bloodtype::unknown),eyecolour(EyeColour::unknown) {}
 
     // getters 
-    string getName(){
+
+    // use const to ensure the variable being read is read only
+    string getName() const {
         return name;
     }
 
@@ -95,7 +97,7 @@ class Human{
     }
 
     // setters
-    void setName(string name){
+    void setName(const string &name){
         this->name = name;
     }
 
@@ -120,7 +122,7 @@ class Human{
     }
 
     // methods
-    void to_string(){
+    void diplayData(){
         cout << "Hello " << getName() << "\nage: " << getAge()
         << "\nHeight: " << getHeight() << "\nWeight: " << getWeight();
     }
@@ -131,7 +133,7 @@ int main(){
 
     Human Taku = Human("Takudzwa Antony Masendeke",21,175,63,Bloodtype::unknown,EyeColour::brown);     
 
-    Taku.to_string();
+    Taku.diplayData();
 
     return 0;
 }
