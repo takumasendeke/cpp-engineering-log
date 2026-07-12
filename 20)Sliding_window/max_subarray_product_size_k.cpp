@@ -10,14 +10,34 @@ using std::max;
 // use const and ref operator to prevent copying large variable
 int maxProduct(const vector<int> &nums, int k){
     int length = nums.size();
-    int largest = 0;
+    int largestProduct = 0;
 
     // edge case handling
-    if (length <= 5){
+    if (length <= k){
         for (int num: nums){
-            largest += 
+            largestProduct *= num;
         }
+
+        return largestProduct;
     }
+
+    // sliding window
+    int currentProduct = 1; // make 1 to prevent multiplaction by 0
+
+    for (int i = 0; i < k; i++){
+        currentProduct *= nums[i];
+    }
+
+    largestProduct = currentProduct;
+
+    for (int i = k; i < length; i++){
+        currentProduct /= nums[i - k];
+        currentProduct *= nums[i];
+
+        largestProduct = max(currentProduct,largestProduct);
+    }
+
+    return largestProduct;
 }
 
 int main(){
