@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\typedef_alias.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\typedef_alias.dir/objects.a @CMakeFiles\typedef_alias.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\typedef_alias.dir/objects.a -Wl,--no-whole-archive -o typedef_alias.exe -Wl,--out-implib,libtypedef_alias.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\typedef_alias.dir\linkLibs.rsp

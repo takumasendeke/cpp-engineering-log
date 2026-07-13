@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\math_funcs.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\math_funcs.dir/objects.a @CMakeFiles\math_funcs.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\math_funcs.dir/objects.a -Wl,--no-whole-archive -o math_funcs.exe -Wl,--out-implib,libmath_funcs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\math_funcs.dir\linkLibs.rsp

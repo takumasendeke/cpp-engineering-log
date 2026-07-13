@@ -1,0 +1,4 @@
+add_executable(loop_do_while do-while-loop/main.cpp)
+add_executable(loop_for for-loop/main.cpp)
+add_executable(loop_nested nested-loop/main.cpp)
+add_executable(loop_while while-loop/main.cpp)

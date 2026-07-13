@@ -1,0 +1,5 @@
+add_executable(arr_multi multidimentinal/main.cpp)
+add_executable(arr_iter iteration/main.cpp)
+add_executable(arr_methods methods/main.cpp)
+add_executable(arr_sort sorting/main.cpp)
+add_executable(arr_basic simple-array/main.cpp)

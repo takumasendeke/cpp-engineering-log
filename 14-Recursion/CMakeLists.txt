@@ -1,0 +1,1 @@
+add_executable(recursion_basic recursions/main.cpp)

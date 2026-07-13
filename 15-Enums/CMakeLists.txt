@@ -1,0 +1,1 @@
+add_executable(enum_basic enums/main.cpp)

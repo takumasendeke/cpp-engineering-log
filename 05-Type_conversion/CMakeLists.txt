@@ -1,0 +1,1 @@
+add_executable(type_cast casting/main.cpp)

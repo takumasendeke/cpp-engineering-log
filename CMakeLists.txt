@@ -1,0 +1,25 @@
+# cpp-engineering-log/CMakeLists.txt
+
+cmake_minimum_required(VERSION 3.10)
+project(EngineeringLog)
+
+# CMake must look in these folders
+add_subdirectory(01-Hello_world)
+add_subdirectory(02-Variables)
+add_subdirectory(03-Typedef_&_Typealias)
+add_subdirectory(04-Arithmetic)
+add_subdirectory(05-Type_conversion)
+add_subdirectory(06-User_input)
+add_subdirectory(07-Conditions)
+add_subdirectory(08-String_methods)
+add_subdirectory(09-Loops)
+add_subdirectory(10-Functions)
+add_subdirectory(11-Arrays)
+add_subdirectory(12-Pointers)
+add_subdirectory(13-Memory)
+add_subdirectory(14-Recursion)
+add_subdirectory(15-Enums)
+add_subdirectory(16-Structs)
+add_subdirectory(17-Object_oritented_programming)
+add_subdirectory(18-Header_files)
+add_subdirectory(20-Sliding_window)

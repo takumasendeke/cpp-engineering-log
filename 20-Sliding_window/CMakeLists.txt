@@ -1,0 +1,4 @@
+add_executable(sw_max_prod max-subarray-product-size-k/main.cpp)
+add_executable(sw_max_sum max-subarray-size-sum-k/main.cpp)
+add_executable(sw_target_sum subarray-target-sum-size-k/main.cpp)
+add_executable(sw_anagram substring-anagram-size-k/main.cpp)

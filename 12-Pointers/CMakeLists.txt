@@ -1,0 +1,5 @@
+add_executable(ptr_mem memory-address/main.cpp)
+add_executable(ptr_null null/main.cpp)
+add_executable(ptr_const const/main.cpp)
+add_executable(ptr_basic pointer/main.cpp)
+add_executable(ptr_ref values-references/main.cpp)
