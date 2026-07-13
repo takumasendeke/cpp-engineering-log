@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\func_return.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\func_return.dir/objects.a @CMakeFiles\func_return.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\func_return.dir/objects.a -Wl,--no-whole-archive -o func_return.exe -Wl,--out-implib,libfunc_return.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\func_return.dir\linkLibs.rsp

@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\var_namespace.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\var_namespace.dir/objects.a @CMakeFiles\var_namespace.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\var_namespace.dir/objects.a -Wl,--no-whole-archive -o var_namespace.exe -Wl,--out-implib,libvar_namespace.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\var_namespace.dir\linkLibs.rsp

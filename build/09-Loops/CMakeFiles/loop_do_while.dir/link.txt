@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\loop_do_while.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\loop_do_while.dir/objects.a @CMakeFiles\loop_do_while.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\loop_do_while.dir/objects.a -Wl,--no-whole-archive -o loop_do_while.exe -Wl,--out-implib,libloop_do_while.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\loop_do_while.dir\linkLibs.rsp

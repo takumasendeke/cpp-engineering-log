@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\arr_multi.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\arr_multi.dir/objects.a @CMakeFiles\arr_multi.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\arr_multi.dir/objects.a -Wl,--no-whole-archive -o arr_multi.exe -Wl,--out-implib,libarr_multi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arr_multi.dir\linkLibs.rsp

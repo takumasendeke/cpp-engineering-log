@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\recursion_basic.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\recursion_basic.dir/objects.a @CMakeFiles\recursion_basic.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\recursion_basic.dir/objects.a -Wl,--no-whole-archive -o recursion_basic.exe -Wl,--out-implib,librecursion_basic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\recursion_basic.dir\linkLibs.rsp

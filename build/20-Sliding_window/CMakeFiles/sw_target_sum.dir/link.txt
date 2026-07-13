@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\sw_target_sum.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\sw_target_sum.dir/objects.a @CMakeFiles\sw_target_sum.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sw_target_sum.dir/objects.a -Wl,--no-whole-archive -o sw_target_sum.exe -Wl,--out-implib,libsw_target_sum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sw_target_sum.dir\linkLibs.rsp

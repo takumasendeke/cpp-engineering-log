@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\cond_ternary.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cond_ternary.dir/objects.a @CMakeFiles\cond_ternary.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cond_ternary.dir/objects.a -Wl,--no-whole-archive -o cond_ternary.exe -Wl,--out-implib,libcond_ternary.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cond_ternary.dir\linkLibs.rsp
