@@ -1,16 +1,16 @@
-Ignore the build folder created by CMake
+#Ignore the build folder created by CMake
 
 build/
 
-Ignore compiled executables (Windows)
+#Ignore compiled executables (Windows)
 
 *.exe
 
-Ignore object files (if any are generated outside of build)
+#Ignore object files (if any are generated outside of build)
 
 *.o
 *.obj
 
-Ignore VS Code settings (Optional, but often recommended if you prefer team-standard settings)
+#Ignore VS Code settings (Optional, but often recommended if you prefer team-standard settings)
 
 .vscode/
