@@ -1,1 +1,1 @@
-add_executable(header_food fav-food/main.cpp)
+add_executable(header_food fav-food/main.cpp fav-food/food.cpp)
