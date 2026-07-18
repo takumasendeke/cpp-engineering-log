@@ -32,7 +32,7 @@ int main(){
     vector<int> nums = {3,1,4,9,2,1,7,5};
     int target = 10;
 
-    cout << "[";
+    cout << "[ ";
     for(int num: subarraySum(nums,target)){
         cout << num << " ";
     }
