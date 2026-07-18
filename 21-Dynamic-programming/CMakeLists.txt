@@ -1,0 +1,1 @@
+add_executable(dy_min_cost_stairs min-cost-climbing-stairs/main.cpp)
