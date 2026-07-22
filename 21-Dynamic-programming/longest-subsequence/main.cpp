@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <algorithm>
 
 using std::cout;
 using std::vector;
 using std::string;
+using std::max;
 
 int longestSubsequence(const string& s1,const string& s2){
 
@@ -21,21 +23,11 @@ int longestSubsequence(const string& s1,const string& s2){
 
     for (int i = 1; i < row + 1 ; i++ ){
         for (int j = 1; j < column + 1; j++){
-            matrix[i][j] = s1[i] == s2[j] ? 1 : 0; 
+            matrix[i][j] = s1[i - 1] == s2[j - 1] ? matrix[i - 1][i + 1] : max(matrix[i - 1][j],matrix[i][j - 1]);
         }
     }
 
-    int longest = 0;
-
-    for (int i = 0; i < row + 1 ; i++){
-        for (int j = 0; j < column + 1; j++){
-            if (matrix[i][j] == matrix[i + 1][j + 1] && matrix[i][j] == 1){
-                longest++;
-            }
-        }
-    }
-
-    return longest;
+    return matrix[row][column];
 }
 
 int main(){
